@@ -1,0 +1,27 @@
+input {
+	width: 100%;
+}
+
+.submit:hover{
+	color: white;
+	background: #a61f3f;
+}
+
+.date-select select {
+	width: 31.33333333%;
+	margin: 2.5% 1% !important;
+	padding: 2.5% 5%;
+	float: left;
+	display: inline-block;
+}
+
+input, .date-select select {
+	margin: 2.5% auto;
+	padding: 2.5% 5%;
+	border: 1px solid #a61f3f;
+	-webkit-border-radius: 0.25em;
+	   -moz-border-radius: 0.25em;
+			border-radius: 0.25em;
+	background: rgba(0, 0, 0, 0);
+	font-size: 100%;
+}

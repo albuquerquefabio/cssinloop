@@ -1,0 +1,71 @@
+.release-list {
+	float: left;
+	display: block;
+}
+
+.release-list ul {
+	list-style-type: none;
+}
+
+.release-box {
+	width: 100%;
+	height: 5em;
+	/*margin: 1% auto;*/
+	float: left;
+	display: inline-block;
+	border-bottom: 1px solid #a61f3f;
+}
+
+.list-pic {
+	width: 25%;
+	height: auto;
+	float: left;
+	display: inline-block;
+}
+.list-pic img {
+	width:  4em;
+	height: 4em;
+	margin: 0.5em auto;
+	display: block;
+	border: 1px solid black; 
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.list-info-a, .list-info-b {
+	width: 75%;
+	margin: 0.5em auto;
+	float: left;
+	display: inline-block;
+}
+
+.list-info-a span:nth-child(1), .list-info-b span:nth-child(1) {
+	width: 60%;
+}
+.list-info-a span:nth-child(2), .list-info-b span:nth-child(2) {
+	width: 40%;
+}
+
+.list-info-a span, .list-info-b span {
+	float: left;
+	display: inline-block;
+	color: #a61f3f;
+	font-size: 105%;
+}
+
+.info-name {
+	font-size: 110% !important;
+	/*font-weight: 200;*/
+}
+
+.info-game {
+	font-weight: bolder;
+}
+
+.info-price {
+	font-weight: bolder;
+}
+.info-distance {
+
+}

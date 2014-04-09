@@ -1,0 +1,100 @@
+*, *:before, *:after, *:active {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		 -o-box-sizing: border-box;
+			box-sizing: border-box;
+}
+:focus {
+	outline-color: #f34836;
+	outline-style: auto;
+	outline-width: 5px;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+
+	font-size: 1em;
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+	-webkit-font-smoothing: subpixel-antialiased;
+	/* prevent callout to copy image, etc when tap to hold */
+	-webkit-touch-callout: none;
+	   -moz-touch-callout: none;
+		-ms-touch-callout: none;
+		 -o-touch-callout: none;
+			touch-callout: none;
+	/* prevent webkit from resizing text to fit */
+	-webkit-text-size-adjust: none;
+	   -moz-text-size-adjust: none;
+		-ms-text-size-adjust: none;
+		 -o-text-size-adjust: none;
+			text-size-adjust: none;
+	/* prevent copy paste, to allow, change 'none' to 'text' */
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+		-ms-user-select: none;
+		 -o-user-select: none;
+			user-select: none;
+}
+.gradient-bg {
+	background-color: #a61f3f;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(32%, #c53b54),
+		color-stop(100%, #681324)
+	);
+	background-image: -weblit-linear-gradient(top, #c53b54 32%, #681324 100%);
+	background-image:    -moz-linear-gradient(top, #c53b54 32%, #681324 100%);
+	background-image:     -ms-linear-gradient(top, #c53b54 32%, #681324 100%);
+	background-image:      -o-linear-gradient(top, #c53b54 32%, #681324 100%);
+	background-image:   linear-gradient(to bottom, #c53b54 32%, #681324 100%);
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		-ms-background-size: cover;
+		 -o-background-size: cover;
+		/* was commented to fix some bugs with gradient in IE */
+			/*background-size: cover;*/ 
+}
+
+div, .container {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	top: 0;
+	left: 0;
+}
+.container{
+	position: relative;
+	float: left;
+	overflow-x: hidden;
+}
+
+section {
+	width: 100%;
+	height: auto;
+	position: relative;
+	background: white;
+	z-index: 90;
+	-webkit-transition: all 0.25s ease;
+	   -moz-transition: all 0.25s ease;
+		-ms-transition: all 0.25s ease;
+		 -o-transition: all 0.25s ease;
+			transition: all 0.25s ease;
+}
+
+
+.d-none {
+	display: none;
+}

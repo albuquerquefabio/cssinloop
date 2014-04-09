@@ -1,0 +1,117 @@
+/*
+* Standart Btn
+*/
+.btn {
+	width: 100%;
+	margin: 2.5% 0;
+	padding: 0.25em 0;
+	float: left;
+	display: inline-block;
+	/*display: block;*/
+	border: 0.05em solid #a61f3f;
+	background: rgba(0, 0, 0, 0);
+	color: #a61f3f;
+	text-align: center;
+	text-decoration: none;
+	font-size: 175%;
+	font-weight: 300;
+	cursor: pointer;
+}
+.btn:active {
+	color: white;
+	background: #a61f3f;
+}
+
+
+.btn-selected {
+	background: #a61f3f;
+	border-color: #a61f3f;
+	color: white;
+}
+
+.btn-rounded {
+	-webkit-border-radius: 0.6em;
+	-moz-border-radius: 0.6em;
+	border-radius: 0.6em;
+}
+
+.btn-rounded-l {
+	border-top-left-radius: 0.6em;
+	border-bottom-left-radius: 0.6em;
+}
+.btn-rounded-r {
+	border-top-right-radius: 0.6em;
+	border-bottom-right-radius: 0.6em;
+}
+.btn-rounded-m {
+	
+}
+
+.btn-group-a {
+	width: 48%;
+	margin: 2.5% 1%;
+}
+
+.btn-group-b {
+	width: 31.33333333%;
+	margin: 2.5% 1%;
+}
+
+.btn-group-c {
+	width: 23%;
+	margin: 2.5% 1%;
+}
+
+.btn-group-d {
+	width: 18%;
+	margin: 2.5% 1%;
+}
+
+
+/*
+* Bar Btn
+*/
+.bar-btn {
+	width: auto;
+	position: absolute;
+	z-index: 102;
+	cursor: pointer;
+}
+
+.bar-btn-l {
+	float: left;
+	display: inline-block;
+}
+.bar-btn-r {
+	margin-left: -3em;
+	left: 100%;
+	position: absolute;
+	float: right;
+	display: inline-block;
+}
+/*
+* Bar Top
+*/
+.bar-top .bar-btn span, .bar-top .bar-btn a, .bar-top .bar-btn i {
+	width: 1.345em;
+	padding: 0.045em 0em;
+	display: block;
+	text-align: center;
+	font-size: 225%;
+	font-weight: 300;
+	color: white;
+}
+
+/*
+* Bar Bottom
+*/
+.bar-bottom .bar-btn span, .bar-bottom .bar-btn a, .bar-bottom .bar-btn i {
+	width: 1.522em;
+	padding: 0em 0em;
+	display: block;
+	text-align: center;
+	font-size: 230%;
+	font-weight: 300;
+	color: #a61f3f;
+	line-height: 1.555;
+}

@@ -1,0 +1,51 @@
+/* Source Sans Pro */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400);
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #a61f3f;
+}
+h1 {
+	font-size: 225%;
+}
+h2 {
+	font-size: 200%;
+}
+h3 {
+	font-size: 175%;
+}
+h4 {
+	font-size: 150%;
+}
+h5 {
+	font-size: 125%;
+}
+h6 {
+	font-size: 100%;
+}
+
+a {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+label {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	font-size: 125%;
+}
+
+
+.ta-left {
+	text-align: left;
+}
+
+.ta-right {
+	text-align: right;
+}
+
+.ta-center {
+	text-align: center;
+}
